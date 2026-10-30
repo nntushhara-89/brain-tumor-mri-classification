@@ -1,0 +1,28 @@
+# Trained CNN Model
+
+The trained Brain Tumor MRI Classification model is available for download through Google Drive.
+
+## Download Model
+
+**Model file:** `brain_tumor_cnn.keras`
+
+**Format:** Keras
+
+**Architecture:** CNN built from scratch
+
+**Input image size:** 128 × 128 × 3
+https://colab.research.google.com/drive/1vi5KeHuY5PU3ls1iWT1jAEU7cMjZmXvk?usp=sharing
+
+
+## Usage
+
+After downloading, place the model file in your project directory and load it using TensorFlow:
+
+```python
+import tensorflow as tf
+
+model = tf.keras.models.load_model("brain_tumor_cnn.keras")
+```
+
+Note: This project is for educational purposes only and is not intended for medical diagnosis.
+
